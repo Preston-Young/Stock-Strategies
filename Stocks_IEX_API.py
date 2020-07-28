@@ -5,7 +5,7 @@ import urllib.request
 
 BASE_URL = 'https://www.googleapis.com/youtube/v3'
 
-GOOGLE_API_KEY = 'AIzaSyBMgiJSuu8fFBTqk82huM-wr_j216xll1M'
+GOOGLE_API_KEY = ''
 
 def build_search_url(symbol, trading_days, documentation) -> str:
     '''
